@@ -1,4 +1,4 @@
-/* Font Available jQuery Plugin, v1.0
+/* fontAvailable jQuery Plugin, v1.0
  *
  * Copyright (c) 2009, Howard Rauscher
  * Licensed under the MIT License
