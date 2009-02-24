@@ -5,14 +5,15 @@
  */
  
 (function($) {
+	var element;
+	
     $.fontAvailable = function(fontName) {
-        var element, width;
-        
+        var width;    
         // prepare element, and append to DOM
-        element = $(document.createElement('span'))
+        !element && ( element = $( document.createElement( 'span' ))
             .css('visibility', 'hidden')
             .html('abcdefghijklmnopqrstuvwxyz')
-            .appendTo(document.body);
+            .appendTo( document.body ));
         
         // get the width of element after applying a fake font
         width = element
@@ -21,6 +22,6 @@
         
         element.css('font-family', fontName);
         
-        return (width !== element.width());
+        return width !== element.width();
     }
 })(jQuery);
