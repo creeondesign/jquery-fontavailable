@@ -1,0 +1,11 @@
+This has examples of how to use fontAvailable
+
+= Examples =
+
+{{{
+$(document).ready(function() {
+    if($.fontAvailable('tahoma')) {
+        // analytic code here
+    }
+});
+}}}
