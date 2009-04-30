@@ -1,0 +1,7 @@
+#labels Featured
+*1.1*
+  * absolutely positioned element out of the view port ([http://code.google.com/p/jquery-fontavailable/issues/detail?id=1 #1])
+  * tested the height of the element in addition to the width
+
+*1.0*
+  * initial version
